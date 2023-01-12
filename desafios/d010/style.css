@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@font-face {
+    font-family: 'iDroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Maiko sozinho 1º projeto*/
+body {
+    background-color: #78EB8F;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1.05em;
+    font-weight: 400;
+}
+header {
+    height: 160px;
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, #75df8a, #59a868, #2c5735);
+}
+header > .titulo {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    height: 45px;
+    padding: 8px 2px 4px 2px;
+    margin: 8px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+    
+}
+header > aside > p {
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    height: 32.75px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+    font-style: italic;
+}
+
+
+nav > a {
+    word-spacing: 2px;
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+}
+a {
+    color: #2d8d38;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(219, 219, 219);
+}
+a:active {
+    color: rgb(32, 247, 32);
+}
+
+main {
+    padding: 5px;
+    width: 850px;
+    height: auto;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    box-shadow: 1.8px 1px 7px 5px rgba(0, 0, 0, 0.295);
+    border-radius: 4px 4px 10px 10px;
+}
+main > .img {
+    display: flex;
+    align-items: center;
+}
+.topcontent {
+    height: 50px;
+    color: #1F6127;
+    font-family: 'iDroid', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.h2top {
+    color: #226d4a;
+    background-image: linear-gradient(90deg, #91fa9de8, #91fa9d67, #91fa9d00);
+    font-family: 'iDroid', sans-serif;
+    font-weight: normal;
+    padding: 2px 0px 1px 5px;
+}
+
+article > .aside {
+    background-color: #2b5333;
+    height: 330px;
+    width: 100%;
+    margin: -5px;
+    padding: 17px 10px 0px 0px;
+}
+.video {
+    padding: 1px 150px 1px 150px;
+}
+
+#resto {
+    margin: 15px auto;
+    width: 800px;
+    border-radius: 12px 12px 8px 8px;
+    background-color: #C1EECA;
+}
+#resto > .h3 {
+    background-color: #48a36b;
+    color: white;
+    height: 30px;
+    width: 760px;
+    padding: 5px 27.5px 0px 12.5px;
+    border-radius: 8px 8px 0px 0px;
+
+}
+nav > ul {
+    display: inline-block;
+    height: 19px;
+    width:350px;
+    margin: 0px 0px 10px 0px;
+}
+nav > li {
+    display: inline-block;
+    font-weight: bold;
+    width: 160px;
+}
+#resto > p {
+    margin: 8px;
+    padding: 3px 3px 6px 3px;
+    font-weight: 550;
+}
+
+footer {
+    background-color: #285030;
+    color: white;
+    height: 25px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+footer > p {
+    text-align: left;
+    padding: 3px 0px 0px 0px;
+    text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.308);
+    margin: 15px 2px 8px 10px;
+}
+
+.link:hover {
+    color: #45d856;
+}
+.link::after {
+    content: '🔗';
+}
+
+strong {
+    color: #319c3e;
+}

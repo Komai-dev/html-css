@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+}
+/* Maiko com auxílio do Guanabara */
+:root {
+    --corfraca: #a7ffcf;              
+    --cor1: #3DDC84; 
+    --cor2: #2FA866;
+    --cor3: #1A5C37;
+    --cor4: #355C47;
+    --corforte: #223b2e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a.externo::after {
+    content: '\1F517';
+}
+
+body {
+    background-color: var(--corfraca);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background: var(--cor3);
+    min-height: 150px;
+    padding-top: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--corforte));
+}
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    margin-bottom: 20px;
+}
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white ;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+nav {
+    background-color: var(--corforte);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.231);
+}
+nav > a {
+    color: #77f5b0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+nav > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+main {
+    background-color: white;
+    min-width: 290px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 0px 0px 15px 15px;
+}
+main h1 {
+    color:  var(--cor3);
+    font-family: var(--fonte-android);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+main h2 {
+    color: var(--cor3);
+    font-family: var(--fonte-android);
+    font-size: 1.4em;
+    font-weight: normal;
+    text-indent: 6px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main p {
+    margin: 15px 0px;
+    font-size: 1.05em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4em
+}
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--corforte);
+    background-color: #83f8b4;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--corfraca);
+    background-color: var(--cor3);
+    transition-duration: 0.18s;
+}
+main > article img {
+    width: 100%;
+}
+main img.pequena {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+}
+
+aside {
+    background-color: var(--corfraca);
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.201);
+}
+aside h3 {
+    background-color: var(--cor3);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul {
+    list-style-type: '\2611\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: var(--corforte);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}
