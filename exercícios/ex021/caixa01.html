@@ -26,13 +26,28 @@
 
             padding: 5px;
         }
+        a.exercise {
+            color: rgb(16, 56, 0);
+            font-weight: bold;
+            background-color: rgba(255, 230, 0, 0.404);
+            padding: 5px;
+            border: none;border-radius: 8px;
+            text-decoration: none;
+        }
+        a.exercise:hover {
+            color: rgb(196, 104, 0);
+            background-color: rgba(0, 255, 115, 0.267);
+            border-radius: 8px;
+            text-decoration: underline;
+            transition-duration: 1.2s;
+        }
     </style>
 </head>
 <body>
     <h1>Exemplo de caixa box-level</h1>
     <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
     <br>
-    <p><a href="caixa02.html" target="_blank" rel="external">caixa02.html</a></p>
-    <p><a href="caixa3.html" target="_blank" rel="external">caixa03.html</a></p>
+    <p><a class="exercise" href="caixa02.html" target="_blank" rel="external">caixa02.html</a></p>
+    <p><a class="exercise" href="caixa3.html" target="_blank" rel="external">caixa03.html</a></p>
 </body>
 </html>
