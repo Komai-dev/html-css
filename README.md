@@ -1,5 +1,6 @@
 # html-css
-Aprendendo com o Curso de HTML5 e CSS3 do canal "Curso em Vídeo"
+Meu repositório de exercícios, desafios e testes de HTML5 e CSS3
+Aprendendo com o Curso de HTML5 e CSS3 do canal Curso em Vídeo
 
 Eu estou aprendendo a criar sites e agora vou gerenciar meus repositórios :D!
 
