@@ -16,6 +16,7 @@ div {
     background-image: url(../imagens/astronauta.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     position: absolute;
     top: 50vh;
     left: 50vw;
