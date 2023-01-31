@@ -25,12 +25,29 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        .destaque {
+            background-color: greenyellow;
+        }
+
+        .cnome {
+            background-color: blanchedalmond;
+        }
+        col {
+            background-color: rgba(137, 43, 226, 0.514);
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
 
     <table>
+        <colgroup>
+            <col>
+            <col class="cnome">
+            <col>
+            <col class="cnome">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -50,29 +67,29 @@
             <td>28</td>
             <td>Programador</td>
         </tr>
-        <tr>
+        <tr  class="destaque">
             <td>Gustavo</td>
             <td>M</td>
             <td>42</td>
-            <td></td>
+            <td>Professor</td>
         </tr>
         <tr>
             <td>Hélio</td>
             <td>M</td>
             <td>19</td>
-            <td></td>
+            <td>Vendedor</td>
         </tr>
         <tr>
             <td>Maria</td>
             <td>F</td>
             <td>39</td>
-            <td></td>
+            <td>Médica</td>
         </tr>
         <tr>
             <td>Otávio</td>
             <td>M</td>
             <td>22</td>
-            <td></td>
+            <td>Nutricionista</td>
         </tr>
     </table>
 </body>
